@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>PAGINATION WITH DOM</h2>
+        <p>Current Page: <span id="page"></span></p>
+        <div class="pagination">
+            <a href="javascript:changePage(1)">First</a>
+            <a href="javascript:prevPage()" id="btn_prev">Previous</a>
+            <a href="javascript:changePage(1)">1</a>
+            <a href="javascript:changePage(2)">2</a>
+            <a href="javascript:changePage(3)">3</a>
+            <a href="javascript:changePage(4)">4</a>
+            <a href="javascript:changePage(5)">5</a>
+            <a href="javascript:changePage(6)">6</a>
+            <a href="javascript:changePage(7)">7</a>
+            <a href="javascript:changePage(8)">8</a>
+            <a href="javascript:changePage(9)">9</a>
+            <a href="javascript:changePage(10)">10</a>
+            <a href="javascript:nextPage()" id="btn_next">Next</a>
+            <a href="javascript:changePage(10)">Last</a>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                    <th width="10%">Id</th>
+                    <th width="40%">Name</th>
+                    <th width="50%">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+            
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
